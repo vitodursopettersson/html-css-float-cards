@@ -42,7 +42,8 @@ header h1 {
 /* Float Cards */
 
 .user-card {
-    background-color: white;
-    border: 1px solid red;
+    background-color: #0F0E17;
     float: left;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
 }
