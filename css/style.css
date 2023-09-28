@@ -41,6 +41,10 @@ header h1 {
 
 /* Float Cards */
 
+.user-container {
+    margin-bottom: 20px;
+}
+
 .user-container::after {
     content: "";
     clear: both;
@@ -53,6 +57,7 @@ header h1 {
     float: left;
     width: calc(100% / 3 - 20px);
     margin: 10px;
+    box-shadow: 4px 4px 15px 7px rgba(0, 0, 0, 0.25);
 }
 
 .user-image {
