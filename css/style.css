@@ -23,6 +23,7 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
+    background-color: white;
 }
 
 header {
@@ -36,4 +37,12 @@ header h1 {
     font-family: fredoka, sans-serif;
     color: #E43170;
     margin-bottom: 40px;
+}
+
+/* Float Cards */
+
+.user-card {
+    background-color: white;
+    border: 1px solid red;
+    float: left;
 }
