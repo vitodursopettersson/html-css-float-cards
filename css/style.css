@@ -41,8 +41,15 @@ header h1 {
 
 /* Float Cards */
 
+.user-container::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 .user-card {
     background-color: #0F0E17;
+    color: #ffffff;
     float: left;
     width: calc(100% / 3 - 20px);
     margin: 10px;
