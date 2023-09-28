@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: white;
 }
@@ -53,4 +53,38 @@ header h1 {
     float: left;
     width: calc(100% / 3 - 20px);
     margin: 10px;
+}
+
+.user-image {
+    float: left;
+}
+
+.user-image img {
+    height: 80px;
+    display: block;
+}
+
+.user-info {
+    float: left;
+    padding-left: 20px;
+}
+
+.user-info h2 {
+    font-family: Fredoka, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.user-info h4 {
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.user-info a {
+    color: #4FBAE7;
+    font-size: 12px;
+    text-decoration: none;
 }
