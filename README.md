@@ -1,6 +1,6 @@
 # Floating Cards
 
-Esercitazione 28 settembre 2022
+Esercitazione 28 settembre 2023
 
 
 
